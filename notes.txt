@@ -1,3 +1,4 @@
+HTML5:
 index.html is a common used syntax for homepage. The first html file that the server return.
 
 the html running right now is using a RELATIVE PATH which is files only on the computer.
@@ -6,7 +7,7 @@ accessing relatively to where the file is.
 ABSOLUTE PATH 
 a website will show if accessing file through the internet commonly with the https protocol.
 
-HTML5:
+HTML5 History:
 - first html didnt have a lot of tools
 - new tech such as phones and tablets cause new evolution of html
 - html5 adds features to accomodate new tech
@@ -25,4 +26,53 @@ Quick Copy Websites:
 2) create new file in text editor
 3) paste element code + save file
 4) run save file 
+
+CSS:
+seletor {
+    Property: value;
+}
+
+INLINE STYLES
+write style element in the tags
+ex. <header style="background-color: green"></header>
+
+write in the <head>
+ex.
+<head>
+    <style>
+        li{
+            background-color: purple;
+        }
+    </style>
+</head>
+
+Separation of concerns - important concept to keep in mind.
+
+.class
+#id 
+* 
+element
+element, element
+element > element
+element + element
+:hover
+:last-child
+:first-child
+!important (not recommended)
+
+what selectors win out in the cascade depends on:
+- Specificity
+- Importance
+- Source Order
+
+* same id can only be used once.
+
+all p that has parent of h2
+h2 > p {
+
+element2 element1
+i want to select all element1 inside element2
+}
+BORDER
+border: sizepx style color;
 

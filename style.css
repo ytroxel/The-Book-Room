@@ -1,0 +1,62 @@
+/* # is for id / . is for class */
+
+/* universal across website */
+html body {
+  overflow-x: hidden;
+  background-color: lightgray;
+}
+/*index container for header */
+.index-header {
+  height: 400px;
+  width: 1290px;
+  /* to create overflow header style using negative margin */
+  margin: 0 -1%;
+  margin-top: -3%;
+  padding: 0;
+  background-image: url("img/books-red.jpg");
+  background-size: 1500px 500px;
+  /* border: 3px solid rgba(0, 0, 0, 0.6); */
+}
+/* index header opague black filter */
+.index-header .filter {
+  /* inherit height from index-header */
+  height: inherit;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+/* index header container to keep in viewport */
+.index-header-container {
+  margin: 2%;
+  padding-top: 2%;
+}
+/*index button style */
+.index-header .button {
+  margin: 4px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-style: none;
+}
+/* index back button style */
+.index-header .back {
+  color: white;
+}
+/*index container for directory links on the right */
+.index-dir {
+  float: right;
+  margin: 4px;
+}
+/*index directory links */
+.index-dir .link {
+  text-decoration: none;
+  color: white;
+}
+/* index vault link style */
+.index-dir .vault {
+  margin-right: 10px;
+}
+/* index title style */
+.index-title {
+  text-align: center;
+  margin: 10%;
+  color: white;
+  font-size: 40px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}

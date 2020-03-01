@@ -2,18 +2,35 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <!-- link css files in the <head>
+      rel the relationship to the file
+    type text css file -->
+    <link rel="stylesheet" type="text/css" href="style.css">
     <!-- changes the text in the web browser tab -->
     <title>The Book Room</title>
   </head>
   <body>
-    <!-- button to go back to last page viewed -->
-    <input type="button" value="back" onclick="history.back()">
-    <!-- Tags <> and as a whole its called an h1 element -->
-    <header><h1>The Book Room</h1></header>
-    <!-- anchor tag with href(hyper text referrence/ specify link to go)
-    linking new html file in folder -->
-    <a href="vault.html" >The Vault</a>
-    <a href="register.html" >Register</a><br><br><br>
+    <div class="index-header">
+      <div class="filter">
+        <div class="index-header-container">
+          <header>
+            <!-- button to go back to last page viewed -->
+            <input type="button" class="button back" value="back" onclick="history.back()">
+            <div class="index-dir">
+              <!-- anchor tag with href(hyper text referrence/ specify link to go)
+              linking new html file in folder -->
+              <a href="vault.html" class="link vault">The Vault</a>
+              <a href="register.html" class="link register">Register</a>
+            </div>
+            <div class="index-title">
+              <!-- Tags <> and as a whole its called an h1 element -->
+              <h1>The Book Room</h1>
+            </div>
+          </header>
+        </div>
+      </div>
+    </div>
+    <br><br><br>
     
       <!-- <b> and <i> is not recommended anymore with the incorporation of mobile and tablet
         replaced with <strong> & <em>(emphasize)  symantec html -->
