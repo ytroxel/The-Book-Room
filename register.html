@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Register</title>
+  </head>
+  <body>
+    <!-- using anchor to go back to first page -->
+    <!--OLD <a href="index.html">back</a> -->
+    <!-- button to go back to last page viewed -->
+    <input type="button" value="back" onclick="history.back()" />
+    <header>
+      <h1>Register</h1>
+    </header>
+    <!-- span create inline styles to specific elements -->
+    <span></span>
+    <!-- div allow to add styles and divide up our content into each different section
+    as its own box -->
+    <div>
+      <!-- most common form  -->
+      <form>
+        <!-- text input form / has action attribute/  -->
+        <!-- have to add name attribute to submit form -->
+        Firt Name: <input type="text" name="first-name" /><br />
+        Last Name: <input type="text" name="last-name" /><br />
+        <!-- require will not submit until filled -->
+        <!-- email type require email format submission -->
+        Email: <input type="email" name="email" required /><br />
+        <!-- password type with min attribute to require minimum characters -->
+        Password:
+        <input type="password" name="password" min="4" required /><br />
+        Birthday: <input type="date" name="birthday" /><br />
+        <!-- radio is radio buttons -->
+        Gender:<br />
+        <!-- name attribute connects radio buttons -->
+        <!-- value should be set to give data info instead of default on -->
+        <input type="radio" name="gender" value="male" />Male<br />
+        <input type="radio" name="gender" value="female" />Female<br />
+        <input type="radio" name="gender" value="other" />Other<br />
+        Account type:<br />
+        <input type="radio" name="account-type" value="student" />Student<br />
+        <input
+          type="radio"
+          name="account-type"
+          value="professional"
+        />Professional<br />
+        <input type="radio" name="account-type" value="other" />Other<br />
+        <!-- drop down menu -->
+        Plan Selection:<br />
+        <!-- * Must select Free Trial + Additional Plan<br> 
+            must have multiple in the select tag-->
+        <select name="plan">
+          <option name="free-trail" value="free-trail">Free Trial</option>
+          <option name="pay-base-plan" value="pay-base-plan">Base Plan</option>
+          <option name="pay-premium-plan" value="pay-premium-plan"
+            >Premium Plan</option
+          > </select
+        ><br />
+        <!-- create a botton with submit default unless named in value-->
+        <input type="submit" value="register" />
+        <input type="reset" />
+        <!-- without a submit location the input data is attached to the current link
+            info is called Query Strings / auto generate in HTML5 with form tag / same as form method="GET" 
+            Query Strings start with a ? to state there is a bunch of data for you in format property=value
+            data continue with & to include more information
+            example:
+            ?
+            first-name=f
+            &last-name=f
+            &email=f%40gmail.com
+            &password=1234
+            &birthday=2020-01-01
+            &gender=female
+            &account-type=student
+            &plan=pay-base-plan -->
+      </form>
+    </div>
+  </body>
+  <!-- footer -->
+  <footer>
+    <p>Your Story....Told</p>
+  </footer>
+</html>

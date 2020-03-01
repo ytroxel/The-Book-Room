@@ -1,0 +1,28 @@
+index.html is a common used syntax for homepage. The first html file that the server return.
+
+the html running right now is using a RELATIVE PATH which is files only on the computer.
+accessing relatively to where the file is.
+
+ABSOLUTE PATH 
+a website will show if accessing file through the internet commonly with the https protocol.
+
+HTML5:
+- first html didnt have a lot of tools
+- new tech such as phones and tablets cause new evolution of html
+- html5 adds features to accomodate new tech
+new feature:
+    - older versions are not obsolete
+    - introduce symantec elements (more descripted ex. google rank your tags in search)
+    - new tags ex. article, aside, details, figcaption, figure, footer, header, main, mark...etc
+
+Quick Copy Websites:
+1) copy html code from website
+    - be on the website to copy
+    - click view
+    - select developer 
+    - select inspect elements
+    - copy all elements
+2) create new file in text editor
+3) paste element code + save file
+4) run save file 
+
