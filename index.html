@@ -57,58 +57,70 @@
         <!-- order list -->
         <ul>
           <!-- list item -->
-          <li>Write Journal Entry</li>
-          <br />
-          <!-- line break <br> -->
-          <!-- image tag height set to 50px to adjust default image size (was too big)
-        alt to identify image -->
-          <!-- link image to new entry page -->
-          <a href="new-entry.html">
-            <img
-              src="https://cdn.pixabay.com/photo/2017/08/04/07/58/list-2579306_960_720.jpg"
-              alt="write-entry"
-              height="50"
-            />
-          </a>
-          <li>Search The Vault</li>
-          <br />
-          <img
-            src="https://storage.needpix.com/rsynced_images/help-1657279_1280.png"
-            alt="search-entry"
-            height="25"
-          />
+          <div class="new-entry">
+            <li>Write Journal Entry</li>
+            <br />
+            <!-- line break <br> -->
+            <!-- image tag height set to 50px to adjust default image size (was too big)
+            alt to identify image -->
+            <!-- link image to new entry page -->
+            <div class="new-entry-image">
+              <a href="new-entry.html">
+                <img
+                  src="https://cdn.pixabay.com/photo/2017/08/04/07/58/list-2579306_960_720.jpg"
+                  alt="write-entry"
+                  height="50"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="search">
+            <li>Search The Vault</li>
+            <br />
+            <div class="search-image">
+              <img
+                src="https://storage.needpix.com/rsynced_images/help-1657279_1280.png"
+                alt="search-entry"
+                height="25"
+              />
+            </div>
 
-          <!-- nested list -->
-          <ul>
-            <li>
-              search journal titles<br />
-              <form>
-                <input
-                  type="text"
-                  placeholder="search here"
-                  name="search-journal"
-                />
-                <input type="submit" value="Search" />
-              </form>
-            </li>
-            <li>
-              search in journals<br />
-              <form>
-                <input
-                  type="text"
-                  placeholder="search here"
-                  name="search-in-journal"
-                />
-                <input type="submit" value="Search" />
-              </form>
-            </li>
-          </ul>
+            <!-- nested list -->
+            <ul>
+              <li>
+                search journal titles<br />
+                <form>
+                  <input
+                    type="text"
+                    placeholder="search here"
+                    name="search-journal"
+                  />
+                  <input type="submit" value="Search" />
+                </form>
+              </li>
+              <li>
+                search in journals<br />
+                <form>
+                  <input
+                    type="text"
+                    placeholder="search here"
+                    name="search-in-journal"
+                  />
+                  <input type="submit" value="Search" />
+                </form>
+              </li>
+            </ul>
+          </div>
         </ul>
       </div>
     </div>
   </body>
   <!-- footer -->
-  <footer>
-    <p>Your Story....Told</p>
-  </footer>
+  <div class="index-footer">
+    <div class="filter">
+      <footer>
+        <div class="quote"><p>Your Story....Told</p></div>
+      </footer>
+    </div>
+  </div>
 </html>

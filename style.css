@@ -95,6 +95,7 @@ INDEX BODY SECTION
 .index-quick-start {
   grid-row: 2/7;
   grid-column: 6/7;
+  padding-right: 5%;
   background-color: white;
   border-radius: 5px;
   color: black;
@@ -102,4 +103,40 @@ INDEX BODY SECTION
 /* Quick Start Title */
 .index-quick-start .title {
   text-align: center;
+}
+/* New Entry Image */
+.index-quick-start .new-entry-image {
+  padding-left: 30%;
+  margin-top: -7%;
+}
+/* Search Image */
+.index-quick-start .search-image {
+  padding-left: 35%;
+}
+/*
+
+FOOTER STYLE
+
+*/
+.index-footer {
+  height: 70px;
+  width: 1290px;
+  margin-top: 10%;
+  background-image: url(img/books-red.jpg);
+  background-size: 1000px 600px;
+}
+/* Footer opaque black filter */
+.index-footer .filter {
+  /* inherit height from index-footer */
+  height: inherit;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(255, 255, 255, 0));
+}
+/* footer quote */
+.index-footer .quote {
+  text-align: center;
+  padding-top: 6px;
+  margin-left: -1%;
+  font-size: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
