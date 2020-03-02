@@ -5,22 +5,27 @@
     <!-- link css files in the <head>
       rel the relationship to the file
     type text css file -->
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <!-- changes the text in the web browser tab -->
     <title>The Book Room</title>
   </head>
   <body>
     <div class="index-header">
       <div class="filter">
-        <div class="index-header-container">
+        <div class="container">
           <header>
             <!-- button to go back to last page viewed -->
-            <input type="button" class="button back" value="back" onclick="history.back()">
+            <input
+              type="button"
+              class="button back"
+              value="back"
+              onclick="history.back()"
+            />
             <div class="index-dir">
               <!-- anchor tag with href(hyper text referrence/ specify link to go)
               linking new html file in folder -->
-              <a href="vault.html" class="link vault">The Vault</a>
-              <a href="register.html" class="link register">Register</a>
+              <a href="vault.html" class="link vault">the vault</a>
+              <a href="register.html" class="link register">register</a>
             </div>
             <div class="index-title">
               <!-- Tags <> and as a whole its called an h1 element -->
@@ -30,63 +35,77 @@
         </div>
       </div>
     </div>
-    <br><br><br>
-    
-      <!-- <b> and <i> is not recommended anymore with the incorporation of mobile and tablet
-        replaced with <strong> & <em>(emphasize)  symantec html -->
-      <p><b>You've just entered The Book Room.</b></p>
-      
-     <p>It is an area as vast as space and as timeless as infinity. It is the<br>
-      realm between light and shadow, between awareness and reflection,<br>
-      and it lies between the pit of one's fears and the summit of your<br>
-      knowledge. This is the dimension of imagination.
-    </p>
-    <br><br><br><br>
-      <h1>Quick Start</h1>
-    </p>
 
-    <!-- order list -->
-    <ul>
-      <!-- list item -->
-      <li>Write Journal Entry</li>
-      <br />
-      <!-- line break <br> -->
-      <!-- image tag height set to 50px to adjust default image size (was too big)
-      alt to identify image -->
-      <!-- link image to new entry page -->
-      <a href="new-entry.html">
-        <img
-          src="https://cdn.pixabay.com/photo/2017/08/04/07/58/list-2579306_960_720.jpg"
-          alt="write-entry"
-          height="50"
-        />
-      </a>
-      <li>Search The Vault</li>
-      <br />
-      <img
-        src="https://storage.needpix.com/rsynced_images/help-1657279_1280.png"
-        alt="search-entry"
-        height="25"
-      />
-      
-      <!-- nested list -->
-      <ul>
-        <li>
-          search journal titles<br>
-          <form>
-          <input type="text" placeholder="search here" name="search-journal">
-          <input type="submit" value="Search" />
-          </form>
-        </li>
-        <li>
-          search in journals<br>
-          <form>
-          <input type="text" placeholder="search here" name="search-in-journal">
-          <input type="submit" value="Search" />
-          </form>
-        </li>
-      </ul>
-    </ul>
+    <div class="index-body">
+      <div class="text">
+        <!-- <b> and <i> is not recommended anymore with the incorporation of mobile and tablet
+        replaced with <strong> & <em>(emphasize)  symantec html -->
+        <p><b>You've just entered The Book Room.</b></p>
+        <p>
+          It is an area as vast as space and as timeless as infinity. It is
+          the<br />
+          realm between light and shadow, between awareness and reflection,<br />
+          and it lies between the pit of one's fears and the summit of your<br />
+          knowledge. This is the dimension of imagination.
+        </p>
+      </div>
+
+      <br /><br /><br /><br />
+      <div class="index-quick-start">
+        <div class="title"><h1>Quick Start</h1></div>
+
+        <!-- order list -->
+        <ul>
+          <!-- list item -->
+          <li>Write Journal Entry</li>
+          <br />
+          <!-- line break <br> -->
+          <!-- image tag height set to 50px to adjust default image size (was too big)
+        alt to identify image -->
+          <!-- link image to new entry page -->
+          <a href="new-entry.html">
+            <img
+              src="https://cdn.pixabay.com/photo/2017/08/04/07/58/list-2579306_960_720.jpg"
+              alt="write-entry"
+              height="50"
+            />
+          </a>
+          <li>Search The Vault</li>
+          <br />
+          <img
+            src="https://storage.needpix.com/rsynced_images/help-1657279_1280.png"
+            alt="search-entry"
+            height="25"
+          />
+
+          <!-- nested list -->
+          <ul>
+            <li>
+              search journal titles<br />
+              <form>
+                <input
+                  type="text"
+                  placeholder="search here"
+                  name="search-journal"
+                />
+                <input type="submit" value="Search" />
+              </form>
+            </li>
+            <li>
+              search in journals<br />
+              <form>
+                <input
+                  type="text"
+                  placeholder="search here"
+                  name="search-in-journal"
+                />
+                <input type="submit" value="Search" />
+              </form>
+            </li>
+          </ul>
+        </ul>
+      </div>
+    </div>
   </body>
   <!-- footer -->
   <footer>

@@ -1,16 +1,21 @@
 /* # is for id / . is for class */
+/* 
 
+INDEX HEADER SECTION
+
+*/
 /* universal across website */
 html body {
   overflow-x: hidden;
-  background-color: lightgray;
+  background-color: black;
+  color: white;
 }
 /*index container for header */
 .index-header {
   height: 400px;
   width: 1290px;
   /* to create overflow header style using negative margin */
-  margin: 0 -1%;
+  margin: 1% -1%;
   margin-top: -3%;
   padding: 0;
   background-image: url("img/books-red.jpg");
@@ -22,9 +27,10 @@ html body {
   /* inherit height from index-header */
   height: inherit;
   background-color: rgba(0, 0, 0, 0.5);
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 1));
 }
 /* index header container to keep in viewport */
-.index-header-container {
+.index-header .container {
   margin: 2%;
   padding-top: 2%;
 }
@@ -37,6 +43,9 @@ html body {
 /* index back button style */
 .index-header .back {
   color: white;
+  font-size: 15px;
+  border-radius: 9px;
+  font-variant: small-caps;
 }
 /*index container for directory links on the right */
 .index-dir {
@@ -47,6 +56,9 @@ html body {
 .index-dir .link {
   text-decoration: none;
   color: white;
+  font-size: 20px;
+  font-variant: small-caps;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 /* index vault link style */
 .index-dir .vault {
@@ -59,4 +71,35 @@ html body {
   color: white;
   font-size: 40px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+/* 
+
+INDEX BODY SECTION
+
+*/
+.index-body {
+  display: grid;
+  grid-template-columns: repeat(6, calc(100% / 6));
+  grid-template-rows: repeat(6, calc(100% / 6));
+}
+/* Index body main text */
+.index-body .text {
+  display: grid;
+  grid-row: 2/3;
+  grid-column: 3/5;
+  font-size: 25px;
+  color: white;
+  line-height: 30px;
+}
+/* Quick Start Menu */
+.index-quick-start {
+  grid-row: 2/7;
+  grid-column: 6/7;
+  background-color: white;
+  border-radius: 5px;
+  color: black;
+}
+/* Quick Start Title */
+.index-quick-start .title {
+  text-align: center;
 }
