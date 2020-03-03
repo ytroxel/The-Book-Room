@@ -1,0 +1,13 @@
+scale index to tablet and phone resolution
+
+- header wont scale
+    - missing grid format for elements
+
+- quick start menu
+    - container elements need scaling format
+
+- gallery
+    - figure out scale method (leaning towards scale to smaller )
+
+- footer 
+    - same as header
