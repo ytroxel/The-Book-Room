@@ -132,9 +132,17 @@ INDEX BODY SECTION
   padding-left: 30%;
   margin-top: -7%;
 }
+.new-entry-effect img {
+  transition: all 0.5s;
+}
+.new-entry-effect img:hover {
+  transform: scale(1.2);
+}
+.new-entry-image 
 /* Search Image */
 .index-quick-start .search-image {
-  padding-left: 35%;
+  padding-left: 30%;
+  margin-left: 10px;
 }
 /* 
 
@@ -154,6 +162,11 @@ INDEX GALLERY
   height: 300px;
   margin: 10px 10px;
   border-radius: 10px;
+  transition: all 1s;
+}
+/* image hover */
+.index-gallery img:hover {
+  transform: scale(1.3);
 }
 
 /*

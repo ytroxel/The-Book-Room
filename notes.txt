@@ -76,3 +76,8 @@ i want to select all element1 inside element2
 BORDER
 border: sizepx style color;
 
+Training:
+https://flukeout.github.io/
+flexbox froggy
+
+

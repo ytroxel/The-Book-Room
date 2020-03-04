@@ -2,12 +2,15 @@ scale index to tablet and phone resolution
 
 - header wont scale
     - missing grid format for elements
+    * create grid for header
 
 - quick start menu
     - container elements need scaling format
+    * create grid 
 
 - gallery
-    - figure out scale method (leaning towards scale to smaller )
+    * responsiveness to phone photo line
+    * tablet & desktop horizontal slider
 
 - footer 
     - same as header
